@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if [ "$TERM" == "xterm" ] || [ "$TERM" == "xterm-256color" ]; then
 	#export TERMINFO=/usr/share/terminfo
 	export TERM=xterm-256color
@@ -20,6 +22,7 @@ alias zf='z -I'
 alias zb='z -b'
 alias t='todo.sh'
 alias ms="echo notify | at"
+alias j='cd /mnt/c/Users/rdwr/Documents/wiki'
 
 #eval "$(lua ~/WorkSpace/LocalCmd/z.lua/z.lua --init bash enhanced once fzf)"
 

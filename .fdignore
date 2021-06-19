@@ -1,0 +1,16 @@
+tags
+GPATH
+GTAGS
+GRTAGS
+project.files
+*.o
+*.so
+*.a
+*.ko
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf

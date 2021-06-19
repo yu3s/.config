@@ -37,8 +37,8 @@ export PS1="\[\033[01;31m\]"'$(__git_ps1 "(%s)")'"\[\033[00m\] \[\033[01;33m\]\w
 #export PYTHONPATH=$HOME/.rootfs/usr/lib/python2.7/site-packages
 
 if [[ -z "$TMUX" ]];then
-	path_prepend "$HOME/Rootfs/usr/bin"
-	path_prepend "$HOME/Rootfs/bin"
+	path_prepend $HOME/.usr/local/sbin/
+	path_prepend $HOME/.usr/local/bin/
 fi
 
 if [[ -z "$TMUX" ]] && [ "$SSH_CONNECTION" != "" ]; then
